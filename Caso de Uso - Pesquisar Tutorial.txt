@@ -1,0 +1,23 @@
+Caso de uso: Usuario pesquisa tutoriais
+Precondições: Estar logado como usuario
+Autores: Usuário
+Trigger: Usuário clica na barra de pesquisa
+
+*Termos entre aspas se referem a paginas do figma
+
+1. "Pag inicial" permite de o usuário digitar o que deseja
+2. O usuário digita o titulo
+3. "Pag pesquisa" mostra os tutoriais relacionados a pesquisa
+4. O usuário clica num tutorial
+5. É invocado o caso de uso de ver tutorial
+
+Fluxo alternativo 1:
+4. O usuário clica no botão home
+5. "Pag incial" é exibida
+6. O usuário clica na barra de pesquisa
+7. É invocado o caso de uso de pesquisa 
+
+Fluxo alternativo 2:
+4. O usuário clica no botão home
+5. "Pag incial" é exibida
+ 

@@ -1,0 +1,30 @@
+Caso de uso: 'Editar tutorial': Admin altera tutorias
+Precondicoes: Estar logado como admin
+Autores: Admin
+Trigger: Admin clica no botao de adicionar conteudo
+
+TERMOS ENTRE ASPAS SAO REFERENTES A PAGINAS DO FIGMA
+
+1. Admin clica no botao 'editar tutorial' na 'adm pag inicial'
+2. 'adm pag inicial' mostra a pagina 'adm pag editar'
+3. Usuario clica no icone de 'x' do video
+4. 'adm pag editar' retira o video da pagina
+5. 'adm pag editar' mostra a pagina 'adm pag editar sem video'
+6. Admin clica no icone de fazer o upload de um video
+7. 'adm pag editar sem video' mostra a pagina 'adm pag editar'
+8. Admin altera o que estiver escrito em texto na descricao
+9. Admin clica no botao 'salvar' na pagina 'adm pag editar'
+10. Sistema salva o tutorial
+11. 'adm pag novo video' mostra a pagina 'adm pag inicial'
+12. Admin fecha o aplicativo
+
+Fluxo alternativo 1:
+1. O admin aperta o botao 'cancelar' na 'adm pag editar'
+2. 'adm pag editar' mostra a pagina 'adm pag inicial'
+
+Fluxo alternativo 2:
+1. O admin aperta o botao 'cancelar' na 'adm pag editar sem video'
+2. 'adm pag editar sem video' mostra a pagina 'adm pag inicial'
+
+Fluxo alternativo 3:
+1. O admin, a partir da 'adm pag inicial', comeca um novo caso de uso

@@ -1,0 +1,294 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36 OPR/116.0.0.0" version="26.0.11">
+  <diagram name="Page-1" id="C9BE7iLNWBnAve_lOvUL">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Bmva-BB27BcGyx91-SRa-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-1" target="Bmva-BB27BcGyx91-SRa-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-1" value="T4" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-2" target="Bmva-BB27BcGyx91-SRa-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-2" value="T3" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-4" target="Bmva-BB27BcGyx91-SRa-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-4" value="T2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-5" target="Bmva-BB27BcGyx91-SRa-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-5" target="Bmva-BB27BcGyx91-SRa-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="280" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-5" value="T1" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-6" target="Bmva-BB27BcGyx91-SRa-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-6" value="T5" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-7" target="Bmva-BB27BcGyx91-SRa-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-7" value="M1" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-8" target="Bmva-BB27BcGyx91-SRa-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-8" value="M2" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-9" target="Bmva-BB27BcGyx91-SRa-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-9" value="M5" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-10" target="Bmva-BB27BcGyx91-SRa-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-10" value="M4" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-11" target="Bmva-BB27BcGyx91-SRa-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-11" value="M3" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-17" target="Bmva-BB27BcGyx91-SRa-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-17" value="M6" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-23" value="T10" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="600" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-24">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-24" value="T9" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="520" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-25" value="T8" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="440" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-26" value="T7" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="360" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-27" target="Bmva-BB27BcGyx91-SRa-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-27" value="T6" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="280" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-35" target="Bmva-BB27BcGyx91-SRa-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-35" value="M7" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-42" value="T11" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-43" target="Bmva-BB27BcGyx91-SRa-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-43" value="T12" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="680" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-45" target="Bmva-BB27BcGyx91-SRa-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="360" y="780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-45" value="M8" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="720" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-47" target="Bmva-BB27BcGyx91-SRa-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-47" value="T13" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-86" target="Bmva-BB27BcGyx91-SRa-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-49" value="M9" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="760" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-51" target="Bmva-BB27BcGyx91-SRa-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-51" value="T14" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="840" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-53" target="Bmva-BB27BcGyx91-SRa-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-53" value="Fim" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="820" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-56" value="&lt;div&gt;Tempo: 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-57" value="&lt;div&gt;Tempo: 0.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-58" value="&lt;div&gt;Tempo: 0.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-59" value="&lt;div&gt;Tempo: 0.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="481" y="409" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-60" value="&lt;div&gt;Tempo: 0.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-61" value="&lt;div&gt;Tempo: 0.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-62" value="&lt;div&gt;Tempo: 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-63" value="&lt;div&gt;Tempo: 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-64" value="&lt;div&gt;Tempo: 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-65" value="&lt;div&gt;Tempo: 1&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-67" value="&lt;div&gt;Tempo: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-68" value="&lt;div&gt;Tempo: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="730" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-69" value="&lt;div&gt;Tempo: 0.5&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="650" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-70" value="&lt;div&gt;Tempo: 2&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="880" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-72" value="&lt;div&gt;Tempo: 3.75&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="900" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-73" target="Bmva-BB27BcGyx91-SRa-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="140" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-73" target="Bmva-BB27BcGyx91-SRa-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="140" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-89" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-73" target="Bmva-BB27BcGyx91-SRa-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="140" y="460" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-73" target="Bmva-BB27BcGyx91-SRa-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="140" y="540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-73" target="Bmva-BB27BcGyx91-SRa-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="140" y="160" />
+              <mxPoint x="140" y="620" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-73" value="Inicio" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="160" y="120" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-74" value="&lt;div&gt;Tempo: 0&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="90" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-78" value="&lt;div&gt;Tc: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="250" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-79" value="&lt;div&gt;Tc: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="570" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-80" value="&lt;div&gt;Tc: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="490" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-81" value="&lt;div&gt;Tc: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-82" value="&lt;div&gt;Tc: 1&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-83" value="&lt;div&gt;Tc: 1.25&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="720" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-84" value="&lt;div&gt;Tc: 1.75&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="760" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-85" value="&lt;div&gt;Tc: 1&lt;/div&gt;&lt;div&gt;Tt: 1.75&lt;/div&gt;Folga: 0.75" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="685" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Bmva-BB27BcGyx91-SRa-49" target="Bmva-BB27BcGyx91-SRa-86">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="800" as="sourcePoint" />
+            <mxPoint x="640" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Bmva-BB27BcGyx91-SRa-86" value="&lt;div&gt;Tc: 2.75&lt;/div&gt;Folga: 0" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="600" y="800" width="80" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

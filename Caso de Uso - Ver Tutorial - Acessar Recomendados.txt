@@ -1,0 +1,43 @@
+Caso de uso: Usuário vizualiza um tutorial da página de pesquisa
+Precondições: Estar logado como usuário
+Autores: Usuário
+Trigger: Usuário seleciona um tutorial da página de pesquisa
+
+TERMOS ENTRE ASPAS SAO REFERENTES A PAGINAS DO FIGMA
+
+1. 'pag pesquisa' apresenta os tutoriais de acordo com o nome pesquisado
+2. O usuário clica em um tutorial da lista apresentada
+3. A 'pag pesquisa' requer o tutorial escolhido
+4. A 'pag tutorial' mostra o guia escolhido
+5. O usuario visualiza o tutorial mostrado
+6. O usuario fecha o aplicativo
+
+Fluxo alternativo 1:
+1. O usuario aperta o botao 'home' na 'pag tutorial'
+2. O usuario aperta o botao 'pesquisar' na 'pag inicial'
+3. Recomeca a partir do trigger
+
+Fluxo alternativo 2:
+1. O usuario aperta o botao 'home' na 'pag inicial'
+2. Comeca outro caso de uso
+
+Caso de uso: Usuário vizualiza um tutorial dos recomendados
+Precondições: Estar logado como usuário
+Autores: Usuário
+Trigger: Usuário seleciona um tutorial dos recomendados
+
+1. A 'pag inicial' apresenta os recomendados
+2. O usuário escolhe um tutorial da lista existente
+3. A 'pag inicial' requer o tutorial escolhido
+4. A 'pag tutorial' mostra o guia escolhido
+5. O usuario visualiza o tutorial mostrado
+6. O usuario fecha o aplicativo
+
+Fluxo alternativo 1:
+1. O usuario aperta o botao 'home' na 'pag tutorial'
+2. O usuario aperta o botao 'pesquisar' na 'pag inicial'
+3. Recomeca a partir do trigger
+
+Fluxo alternativo 2:
+1. O usuario aperta o botao 'home' na 'pag inicial'
+2. Comeca outro caso de uso

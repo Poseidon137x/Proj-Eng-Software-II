@@ -1,0 +1,29 @@
+Caso de uso: 'Fazer upload': Admin adiciona tutorias
+Precondicoes: Estar logado como admin
+Autores: Admin
+Trigger: Admin clica no botao de adicionar conteudo
+
+TERMOS ENTRE ASPAS SAO REFERENTES A PAGINAS DO FIGMA
+
+1. Admin clica no botao 'novo tutorial' na 'adm pag inicial'
+2. 'adm pag inicial' mostra a pagina 'adm pag novo'
+3. Usuario clica no icone de upload de um video
+4. 'adm pag novo' mostra a pagina 'pag arquivo'
+5. Admin escolhe um arquivo para fazer upload
+6. 'pag arquivo' mostra a pagina 'adm pag novo video'
+7. Admin insere pelo teclado informacoes sobre o guia
+8. Admin clica no botao 'salvar'
+9. Sistema salva o tutorial
+10. 'adm pag novo video' mostra a pagina 'adm pag inicial'
+11. Admin fecha o aplicativo
+
+Fluxo alternativo 1:
+1. O admin aperta o botao 'cancelar' na 'adm pag novo'
+2. 'adm pag novo' mostra a pagina 'adm pag inicial'
+
+Fluxo alternativo 2:
+1. O admin aperta o botao 'cancelar' na 'adm pag novo video'
+2. 'adm pag novo video' mostra a pagina 'adm pag inicial'
+
+Fluxo alternativo 3:
+1. O admin, a partir da 'adm pag inicial', comeca um novo caso de uso

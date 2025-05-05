@@ -1,0 +1,35 @@
+Duvidas:
+● Programador é persona? Ou somente o estudante?
+Somente estudante, programador é mt avançado 
+
+● Que tipos de linguagens devem ser adicionadas no site
+As mais usadas, C, Java, Python
+
+● Preferências sobre qual software de programação é preferido
+IntelliJ, VsCode
+
+● Quais os métodos de aprendizagem preferidos
+Tutoriais em vídeo, texto com exemplos, exercícios
+
+● Existe algum tipo de ferramenta interativa de aprendizado
+
+● Conferir possíveis parcerias com outras plataformas de
+aprendizado/tutoriais
+
+● Como seria a solução para resolver dúvidas específicas de um cliente
+
+● Podemos cobrar pelo serviço? Qual a disponibilidade para monetizar o
+serviço?
+Não, renda vinda de propagandas
+
+● Quais tipos de recursos e conteúdo você considera mais úteis para
+aprender novas linguagens de programação?
+Video explicativo passo a passo e/de exemplos
+
+● Como você gostaria de encontrar e organizar as recomendações no
+site?
+Caso possível poder alterar de acordo com o gosto do usuário 
+
+● Quais funcionalidades fariam você voltar regularmente ao site para
+continuar explorando novos tutoriais e ferramentas?
+Ter uma grande diversidade de tutoriais e boa organização visual e de informações
