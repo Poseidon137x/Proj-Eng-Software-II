@@ -1,0 +1,15 @@
+Caso de uso - Esqueceu a Senha
+Precondições: Não estar logado no sistema
+Autores: Usuário
+Trigger: Clicar no "Esqueceu a senha?"
+
+Fluxo Principal:
+1. Usuário clica no botão de "Esqueceu a senha?" na tela "login"
+2. Redireciona o usuário para "forgot_password"
+3. Usuário insere o seu Username e a senha nova
+4. Sistema armazena os dados inseridos utilizando o model
+5. Atualiza a nova senha no sistema
+6. Redireciona o usuário para a página inicial "login"
+
+Fluxo alternativo:
+... Durante qualquer momento do fluxo principal, o usuário desiste da ação e retorna para a tela "login"

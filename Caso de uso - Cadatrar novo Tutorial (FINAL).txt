@@ -1,0 +1,15 @@
+Caso de uso - Cadastrar novo Tutorial
+Precondições: Estar logado no sistema como Admin
+Autores: Admin
+Trigger: Clicar no "Cadastrar Novo Tutorial"
+
+Fluxo Principal:
+1. Admin clica no botão de "Cadastrar Novo tutorial" na página "index"
+2. Redireciona o Admin para "tutorial_form"
+3. Admin adiciona as informações do tutorial
+4. Sistema armazena os dados inseridos utilizando o model
+5. Adiciona o Tutorial no sistema
+6. Redireciona o Admin para a página "index"
+
+Fluxo alternativo:
+... Durante qualquer momento do fluxo principal, o Admin desiste da ação e retorna para a tela "index"

@@ -1,0 +1,15 @@
+Caso de uso - Cadastro
+Precondições: Não estar logado no sistema
+Autores: Usuário
+Trigger: Clicar no botão "Cadastre-se"
+
+Fluxo Principal:
+1. Usuário clica no botão de "Cadastrar-se" como novo usuário na tela "login"
+2. Redireciona o usuário para "register"
+3. Usuário insere os dados do template "User" (Nome e senha)
+4. Sistema armazena os dados inseridos utilizando o model
+5. Cadastra o novo usuário no sistema
+6. Retorna o usuário para a tela inicial "login"
+
+Fluxo alternativo:
+... Durante qualquer momento do fluxo principal, o usuário desiste da ação e retorna para a tela "login"
