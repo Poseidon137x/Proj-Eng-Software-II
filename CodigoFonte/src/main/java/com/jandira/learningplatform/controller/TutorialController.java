@@ -73,10 +73,31 @@ public class TutorialController {
         Optional<Tutorial> tutorial = tutorialRepository.findById(id);
         if (tutorial.isPresent()) {
             model.addAttribute("tutorial", tutorial.get());
-            return "tutorial_form";
+            return "tutorial_edit";
         } else {
             return "redirect:/";
         }
+    }
+
+    @PostMapping("/tutorial/edit/{id}")
+    public String updateTutorial(@PathVariable Long id, @ModelAttribute Tutorial updatedTutorial, HttpSession session) {
+        if (!"admin".equals(session.getAttribute("role"))) {
+            return "redirect:/login";
+        }
+
+        Optional<Tutorial> optional = tutorialRepository.findById(id);
+        if (optional.isEmpty()) {
+            return "redirect:/";
+        }
+
+        Tutorial tutorial = optional.get();
+        tutorial.setTitle(updatedTutorial.getTitle());
+        tutorial.setDescription(updatedTutorial.getDescription());
+        tutorial.setVideoUrl(updatedTutorial.getVideoUrl());
+
+        tutorialRepository.save(tutorial);
+
+        return "redirect:/home";
     }
 
     @GetMapping("/tutorial/{id}")

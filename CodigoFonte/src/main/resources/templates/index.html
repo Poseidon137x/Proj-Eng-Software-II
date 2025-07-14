@@ -47,6 +47,10 @@
         <ul>
             <li th:each="tut : ${tutorials}">
                 <a th:href="@{/tutorial/{id}(id=${tut.id})}" th:text="${tut.title}">Título</a>
+                <span th:if="${role == 'admin'}">
+                    |
+                    <a th:href="@{/tutorial/edit/{id}(id=${tut.id})}">Editar</a>
+                </span>
             </li>
         </ul>
     </div>
@@ -56,6 +60,7 @@
     <div th:if="${role == 'admin'}">
         <a th:href="@{/tutorial/new}">+ Cadastrar Novo Tutorial</a>
     </div>
+
 
 </body>
 </html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Editar Tutorial</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    form {
+      background-color: #f5f5f5;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    label {
+      display: block;
+      margin-top: 10px;
+    }
+
+    input[type="text"],
+    input[type="url"],
+    textarea {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      margin-top: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+    }
+
+    a {
+      display: inline-block;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<h2>Editar Tutorial</h2>
+
+<form th:action="@{'/tutorial/edit/' + ${tutorial.id}}" th:object="${tutorial}" method="post">
+  <label for="title">Título:</label>
+  <input type="text" id="title" th:field="*{title}" required/>
+
+  <label for="description">Descrição:</label>
+  <textarea id="description" th:field="*{description}" rows="5" required></textarea>
+
+  <label for="videoUrl">URL do Vídeo:</label>
+  <input type="url" id="videoUrl" th:field="*{videoUrl}" required/>
+
+  <button type="submit">Salvar Alterações</button>
+</form>
+
+<a th:href="@{/home}">← Voltar para Home</a>
+
+</body>
+</html>
