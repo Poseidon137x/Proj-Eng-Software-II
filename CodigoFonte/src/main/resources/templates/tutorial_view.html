@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title> th:text="${tutorial.title}">Tutorial</title>
+  <style>
+      body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+          max-width: 800px;
+          margin-left: auto;
+          margin-right: auto;
+      }
+
+      header {
+          background-color: #eee;
+          padding: 10px;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .video-section {
+          background-color: #ddd;
+          padding: 40px;
+          text-align: center;
+          margin-bottom: 20px;
+      }
+
+      .video-section a {
+          font-size: 20px;
+          text-decoration: none;
+      }
+
+      .description {
+          background-color: #eee;
+          padding: 20px;
+          text-align: justify;
+      }
+  </style>
+</head>
+<body>
+    <header>
+        <a th:href="@{/home}"> Home</a>
+        <div th:text="${tutorial.title}">Título</div>
+    </header>
+
+    <div class="video-section">
+        <a th:href="${tutorial.videoUrl}" target="_blank"> Assistir vídeo</a>
+    </div>
+
+    <div class="description">
+        <p th:text="${tutorial.description}">Descrição do tutorial</p>
+    </div>
+</body>
+</html>

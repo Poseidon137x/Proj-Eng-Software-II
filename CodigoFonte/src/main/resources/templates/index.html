@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Plataforma de Aprendizado</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Plataforma de Tutoriais</h1>
+        <div>
+            <span th:text="${session.username}">Usuário</span>
+                <a th:href="@{/logout}">Logout</a>
+        </div>
+    </header>
+
+    <hr/>
+
+    <h2>Bem-vindo(a), <span th:text="${session.username}">Usuário</span>!</h2>
+
+    <div>
+        <form th:action="@{/home}" method="get">
+            <label>
+                <input type="text" name="q" placeholder="Pesquisar tutoriais"
+                    th:value="${query}" />
+                <button type="submit">Buscar</button>
+            </label>
+        </form>
+    </div>
+
+    <div th:if="${tutorials}">
+        <h3>Resultados da busca:</h3>
+        <div th:if="${tutorials.isEmpty()}">
+            <p>Nenhum tutorial encontrado.</p>
+        </div>
+
+        <ul>
+            <li th:each="tut : ${tutorials}">
+                <a th:href="@{/tutorial/{id}(id=${tut.id})}" th:text="${tut.title}">Título</a>
+            </li>
+        </ul>
+    </div>
+
+    <br/>
+
+    <div th:if="${role == 'admin'}">
+        <a th:href="@{/tutorial/new}">+ Cadastrar Novo Tutorial</a>
+    </div>
+
+</body>
+</html>

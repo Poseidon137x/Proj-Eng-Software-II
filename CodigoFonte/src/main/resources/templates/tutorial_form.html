@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title th:text="${tutorial.id != null} ? 'Editar Tutorial' : 'Novo Tutorial'">Formulário</title>
+</head>
+<body>
+    <header>
+        <h1 th:text="${tutorial.id != null} ? 'Editar Tutorial' : 'Novo Tutorial'">Tutorial</h1>
+        <a th:href="@{/}">← Voltar</a>
+    </header>
+
+    <hr/>
+
+    <form th:action="@{/tutorial/save}" method="post" th:object="${tutorial}">
+        <input type="hidden" th:field="*{id}"/>
+
+        <label for="title">Título:</label><br/>
+        <input type="text" id="title" name="title" th:field="*{title}" required/><br/><br/>
+
+        <label for="description">Descrição:</label><br/>
+        <textarea id="description" name="description" th:field="*{description}" rows="5" cols="50" required></textarea><br/><br/>
+
+        <label for="videoUrl">Link do vídeo (URL):</label><br/>
+        <input type="url" id="videoUrl" name="videoUrl" th:field="*{videoUrl}" required/><br/><br/>
+
+        <button type="submit">Salvar</button>
+    </form>
+</body>
+</html>
