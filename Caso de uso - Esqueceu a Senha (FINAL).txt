@@ -4,15 +4,16 @@ Autores: Usuário
 Trigger: Clicar no "Esqueceu a senha?"
 
 Fluxo Principal:
-1. Usuário clica no botão de "Esqueceu a senha?" na tela "login"
-2. O sistema redireciona o usuário para "forgot_password"
-3. Usuário insere o seu Username
+1. Usuário clica no botão de "Esqueceu a senha?" na tela "login".
+2. O sistema redireciona o usuário para "forgot_password".
+3. Usuário insere o seu Username.
 4. Usuário aperta o Redefinir senha.
-5. O sistema redireciona para a página reset_password
-6. Usuário digita senha nova
-7. Sistema armazena os dados inseridos utilizando o model
-8. Atualiza a nova senha no sistema
-9. Redireciona o usuário para a página inicial "login"
+5. O sistema redireciona para a página reset_password.
+6. Usuário digita senha nova.
+7. Usuário aperta botão Salvar nova senha.
+8. Sistema armazena os dados inseridos utilizando o model.
+9. Atualiza a nova senha no sistema.
+10. Redireciona o usuário para a página inicial "login".
 
 Fluxo alternativo:
 ... Durante qualquer momento do fluxo principal, o usuário desiste da ação e retorna para a tela "login"
